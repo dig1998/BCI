@@ -24,7 +24,7 @@ from data import create_dataset
 from models import create_model
 from util.visualizer import Visualizer
 # from tensorboardX import SummaryWriter
-# import torch
+import torch
 
 if __name__ == '__main__':
     opt = TrainOptions().parse()   # get training options
